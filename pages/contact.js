@@ -85,8 +85,8 @@ const Contact = () => {
                                 borderRadius={8}
                                 boxShadow="lg"
                             >
-                                <Heading size={'lg'}>&apos;Let's get in touch. Leave me your message.</Heading>
-                                <Text fontSize={'lg'} my={2}>Do not hesitate to contact me!</Text>
+                                <Heading size={'lg'}>Send me a email!</Heading>
+                                <Text fontSize={'lg'} my={2}>Promise to answer as swiftly as possible!</Text>
                                 <Box my={4} textAlign="left">
                                     <form onSubmit={handleSubmit}>
                                         {error && <ErrorMessage message={error} />}

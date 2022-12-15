@@ -20,15 +20,21 @@ import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 import {  BsGithub } from 'react-icons/bs'
 import ResumeButton from './resumebutton'
+import { color } from 'style-value-types'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+  const inactiveColor = useColorModeValue('red.500', 'messenger.500')
   return (
     <NextLink href={href} passHref scroll={false}>
       <Link
+        borderRadius={'lg'}
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        _dark={{
+          bg: active ? 'messenger.500' : undefined,
+          color: active ? '#202023' : inactiveColor ,
+        }}
+        bg={active ? 'red.500' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
         {...props}
@@ -117,7 +123,8 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  target={'_blank'}
+                  href="https://github.com/judahsullivan/devjbyrd-portfolio"
                  icon={<BsGithub/>} 
                 >
                  GitHub 

@@ -2,6 +2,9 @@ import {
   Container,
   Heading,
   Box,
+  Link,
+  useColorModeValue,
+  Button
 
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
@@ -10,6 +13,7 @@ import Section from '../components/section'
 import Journey from '../components/journey'
 import MainPic from '../public/assets/images/main-screen.png'
 import Image from 'next/image'
+import NextLink from 'next/link'
 
 const Home = () => (
   <Layout>
@@ -57,7 +61,13 @@ const Home = () => (
         </Heading>
       <Paragraph>
         I am a Front-End Developer based out of Grand Rapids. My goal is to push my abilities to solve complex problems with a passion design.
-        Want to get in contact?  
+        Want to get in contact? 
+        <Link
+        as={NextLink}
+        href={'/contact'}
+        >
+        <Button ml={4} size={'sm'} colorScheme={useColorModeValue('red','blue')}>Just Click Me!</Button>
+        </Link> 
       </Paragraph> 
       </Section>
         
