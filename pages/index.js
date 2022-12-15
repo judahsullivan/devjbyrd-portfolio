@@ -2,13 +2,14 @@ import {
   Container,
   Heading,
   Box,
-  Image,
+
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Journey from '../components/journey'
-
+import MainPic from '../public/assets/images/main-screen.png'
+import Image from 'next/image'
 
 const Home = () => (
   <Layout>
@@ -33,8 +34,7 @@ const Home = () => (
       
       <Image 
       alt={'MAIN-PIC'}
-      src={'https://i.ibb.co/34Js7cw/78000-F6-E-B49-B-498-D-BDD9-98501-B517-C97.png'}
-      borderRadius={'md'}
+      src={MainPic}
       width={400}
       height={375}
       />
