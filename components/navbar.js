@@ -20,7 +20,6 @@ import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 import {  BsGithub } from 'react-icons/bs'
 import ResumeButton from './resumebutton'
-import { color } from 'style-value-types'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
