@@ -1,0 +1,34 @@
+{
+  "name": "devbyrd-portfolio",
+  "version": "1.0.0",
+  "description": "Judah's website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Judah Sullivan",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.2.8",
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^7.2.0",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-palette": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}
