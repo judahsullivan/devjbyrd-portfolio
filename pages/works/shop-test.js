@@ -19,18 +19,18 @@ const Work = () => {
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Link</Meta>
+          <Meta>Link :</Meta>
           <Link href="https://shopeasytest.netlify.app">
             https://shopeasytest.netlify.app <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-        <span >PlatForm</span>
-        <Meta>Windows,Mac,  </Meta>
-          
+        
+        <Meta>Plateform :</Meta>
+          <span>Windows, Mac, Ios, Android</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
+          <Meta>Stack :</Meta>
           <span>React, Sass, Sanity </span>
         </ListItem>
        
@@ -42,7 +42,7 @@ const Work = () => {
 
 
 
-<NextLink href={'/projects'}>
+<NextLink href={'/works'}>
         <Button colorScheme={useColorModeValue('red','blue')}>Back to Projects</Button>
       </NextLink>
     </Container>

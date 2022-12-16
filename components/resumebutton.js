@@ -1,6 +1,6 @@
 import { IconButton } from "@chakra-ui/button";
 import { BsFolder2 } from "react-icons/bs";
-import {Link} from '@chakra-ui/react'
+import {Link, useColorModeValue} from '@chakra-ui/react'
 
 
 
@@ -15,7 +15,7 @@ const ResumeButton = ( ) => {
        icon={<BsFolder2/>}
        target={'_blank'}
        mr={2}
-       colorScheme={'yellow'}
+       colorScheme={useColorModeValue('yellow','blue')}
        />
        </Link>
     )

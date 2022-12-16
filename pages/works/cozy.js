@@ -18,26 +18,28 @@ const Work = () => {
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Link</Meta>
+          <Meta>Link :</Meta>
           <Link href="https://cozy-teahouse.netlify.app/">
             https://cozy-teahouse.netlify.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem >
-        <span>PlatForm</span>
-        <Meta>Windows </Meta>
+          <Meta>PlatForm :</Meta>
+        <span>Windows</span>
+        
         </ListItem>
         <ListItem> 
-        <span>Stack</span>
-          <Meta>Html, Css</Meta>
+        <Meta>Stack :</Meta>
+          <span>Html, Css</span>
          
         </ListItem>
        
       </List>
 
-      <WorkImage src="/assets/images/projects/cozy-teahouse/main-cth.png" alt="Cozy" />
-      <WorkImage src="/assets/images/projects/cozy-teahouse/screen2.png" alt="Cozy" />
-      <NextLink href={'/projects'}>
+      <WorkImage src={'/assets/images/Projects/cozy-teahouse/main-cth.png'} alt="Cozy" />
+      <WorkImage src={'/assets/images/projects/cozy-teahouse/screen2.png'} alt="Cozy" />
+      <WorkImage src={'/assets/images/projects/cozy-teahouse/screen3.png'} alt="Cozy" />
+      <NextLink href={'/works'}>
         <Button colorScheme={useColorModeValue('red','blue')}>Back to Projects</Button>
       </NextLink>
     </Container>

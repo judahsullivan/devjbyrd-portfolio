@@ -8,28 +8,28 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title={'ShopEasy'}>
+    <Layout title={'Portfolio'}>
     <Container>
       <Title>
         My Portfolio <Badge>2022</Badge>
       </Title>
       <P>
-        One of my first apps that I built to help me understand Front-End Design and Eccommerence building. This was also my second attempt at using ReactJs.
+        This is my portfolio. This Project allowed me to truly show my skills, and understanding of Javascript. The fun part was learning to use Chakra-UI and Framer-Motion. This will be constantly updated.
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Link</Meta>
-          <Link href="/">
-             <ExternalLinkIcon mx="2px" />
+          <Meta>Link :</Meta>
+          <Link href="https://devjbyrd-portfolio.vercel.app/">
+            https://devjbyrd-portfolio.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-        <span >PlatForm</span>
-        <Meta>Windows,Mac,Mobile  </Meta>
+        <Meta >PlatForm :</Meta>
+        <span>Windows,Mac,Mobile  </span>
           
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
+          <Meta>Stack :</Meta>
           <span>Nextjs, Chakra-Ui, Framer-Motion, EmailJS </span>
         </ListItem>
        
@@ -39,12 +39,11 @@ const Work = () => {
       <WorkImage src="/assets/images/projects/portfolio/third.png" alt="Portfolio" />
       <WorkImage src="/assets/images/projects/portfolio/fourth.png" alt="Portfolio" />
       <WorkImage src="/assets/images/projects/portfolio/fifth.png" alt="Portfolio" />
-      <WorkImage src="/assets/images/projects/portfolio/sixth.png" alt="Portfolio" />
 
     </Container>
     
     
-    <NextLink href={'/projects'}>
+    <NextLink href={'/works'}>
         <Button colorScheme={useColorModeValue('red','blue')}>Back to Projects</Button>
       </NextLink>
 

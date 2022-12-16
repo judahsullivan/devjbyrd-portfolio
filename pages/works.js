@@ -10,14 +10,14 @@ import MotionCard from '../components/motioncard'
 const Works = () => (
   <Layout title="Works">
     <Container align={'center'}>
-      <Heading as="h3" fontSize={20} mb={4} variant={'section-title '}>
+      <Heading as="h3" fontSize={20} mb={4} variant={'section-title'}>
       Projects
       </Heading>
       
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <MotionCard delay={0.2}>
-          <WorkGridItem id="/cozy"  title="Cozy" thumbnail={CozyTea} 
+          <WorkGridItem id="/cozy"  title="The Cozy-TeaHouse" thumbnail={CozyTea} 
           />
         </MotionCard>
         <MotionCard delay={0.2}>
@@ -30,15 +30,15 @@ const Works = () => (
 
         <MotionCard delay={0.2}>
           <WorkGridItem
-            id="/"
-            title="Portfolio"
+            id="/portfolio"
+            title="My Developer Portfolio"
             thumbnail={Portfolio}
           />
         </MotionCard>
       <MotionCard delay={0.2}>
           <WorkGridItem
             id="/shop-test"
-            title="ShopEasy"
+            title="ShopEasy-Ecommerence"
             thumbnail={ShopEasy}
         />
          

@@ -26,13 +26,13 @@ const Work = () => {
           </Link>
         </ListItem>
         <ListItem>
-        <span>PlatForm</span>
-        <Meta>Windows</Meta>
-          
+        
+        <Meta>PlateForm :</Meta>
+          <span>Windows, Mac, Ios, Android</span>
         </ListItem>
         <ListItem>
-            <span>Stack</span>
-          <Meta>NextJs, Tailwindcss, TMDBApi,</Meta>
+            <Meta>Stack</Meta>
+          <span>NextJs, Tailwindcss, TMDBApi,</span>
           
         </ListItem>
        
@@ -42,7 +42,7 @@ const Work = () => {
       <WorkImage src="/assets/images/projects/hulu-clone/screen2-hulu.png" alt="HuluClone" />
       
 
-     <NextLink href={'/projects'}>
+     <NextLink href={'/works'}>
         <Button colorScheme={useColorModeValue('red','blue')}>Back to Projects</Button>
       </NextLink>
 

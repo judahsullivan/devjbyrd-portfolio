@@ -112,6 +112,7 @@ const Navbar = props => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
+                bgColor={useColorModeValue('red.500', 'messenger.500')}
               />
               <MenuList>
                 <NextLink href="/works" passHref>
