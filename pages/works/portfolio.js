@@ -35,10 +35,10 @@ const Work = () => {
        
       </List>
 
-      <WorkImage src="/assets/images/projects/portfolio/mobile.png" alt="Portfolio" />
-      <WorkImage src="/assets/images/projects/portfolio/third.png" alt="Portfolio" />
-      <WorkImage src="/assets/images/projects/portfolio/fourth.png" alt="Portfolio" />
-      <WorkImage src="/assets/images/projects/portfolio/fifth.png" alt="Portfolio" />
+      <WorkImage src="/assets/images/Projects/portfolio/mobile.png" alt="Portfolio" />
+      <WorkImage src="/assets/images/Projects/portfolio/third.png" alt="Portfolio" />
+      <WorkImage src="/assets/images/Projects/portfolio/fourth.png" alt="Portfolio" />
+      <WorkImage src="/assets/images/Projects/portfolio/fifth.png" alt="Portfolio" />
 
     </Container>
     

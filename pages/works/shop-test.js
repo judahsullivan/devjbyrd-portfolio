@@ -36,9 +36,9 @@ const Work = () => {
        
       </List>
 
-      <WorkImage src="/assets/images/projects/shop-test/main.png" alt="ShopEasy" />
-      <WorkImage src="/assets/images/projects/shop-test/second.png" alt="ShopEasy" />
-      <WorkImage src="/assets/images/projects/shop-test/third.png" alt="ShopEasy" />
+      <WorkImage src="/assets/images/Projects/shop-test/main.png" alt="ShopEasy" />
+      <WorkImage src="/assets/images/Projects/shop-test/second.png" alt="ShopEasy" />
+      <WorkImage src="/assets/images/Projects/shop-test/third.png" alt="ShopEasy" />
 
 
 

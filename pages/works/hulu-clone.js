@@ -38,8 +38,8 @@ const Work = () => {
        
       </List>
 
-      <WorkImage src="/assets/images/projects/hulu-clone/main-hulu.png" alt="HuluClone" />
-      <WorkImage src="/assets/images/projects/hulu-clone/screen2-hulu.png" alt="HuluClone" />
+      <WorkImage src="/assets/images/Projects/hulu-clone/main-hulu.png" alt="HuluClone" />
+      <WorkImage src="/assets/images/Projects/hulu-clone/screen2-hulu.png" alt="HuluClone" />
       
 
      <NextLink href={'/works'}>

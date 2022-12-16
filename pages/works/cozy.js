@@ -37,8 +37,8 @@ const Work = () => {
       </List>
 
       <WorkImage src={'/assets/images/Projects/cozy-teahouse/main-cth.png'} alt="Cozy" />
-      <WorkImage src={'/assets/images/projects/cozy-teahouse/screen2.png'} alt="Cozy" />
-      <WorkImage src={'/assets/images/projects/cozy-teahouse/screen3.png'} alt="Cozy" />
+      <WorkImage src={'/assets/images/Projects/cozy-teahouse/screen2.png'} alt="Cozy" />
+      <WorkImage src={'/assets/images/Projects/cozy-teahouse/screen3.png'} alt="Cozy" />
       <NextLink href={'/works'}>
         <Button colorScheme={useColorModeValue('red','blue')}>Back to Projects</Button>
       </NextLink>
