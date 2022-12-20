@@ -4,7 +4,6 @@ import {
   Box,
   Link,
   Stack,
-  Heading,
   Flex,
   Menu,
   MenuItem,
@@ -14,6 +13,7 @@ import {
   useColorModeValue,
 
 } from '@chakra-ui/react'
+import JbyrdIcon from './icon'
 import { FaDesktop } from 'react-icons/fa'
 import { HamburgerIcon, PhoneIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -65,12 +65,9 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        <Flex align="center" mr={5} bg={useColorModeValue('red.500', 'messenger.500')} p={1} borderRadius={'xl'}>
-          <Heading as="h3" size="md" letterSpacing={'tighter'}>
-            <NextLink href={'/'} passHref>
-              JBYRD
-            </NextLink>
-          </Heading>
+        <Flex align="center" mr={5} bg={useColorModeValue('red.500', 'messenger.500')} p={1} borderRadius={'xl'} cursor={"pointer"}>
+        <JbyrdIcon/> 
+         
         </Flex>
 
         <Stack
