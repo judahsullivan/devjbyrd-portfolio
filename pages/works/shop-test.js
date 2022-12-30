@@ -15,8 +15,8 @@ const Work = () => {
         ShopEasy-TestApp <Badge>2022</Badge>
       </Title>
       <P>
-        One of my first apps that I built to help me understand Front-End Design and Eccommerence building. This was also my second attempt at using ReactJs.
-      </P>
+        One of my first apps from a tutorial,  that help me understand Front-End Design and Eccommerence building. 
+          </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Link :</Meta>
