@@ -15,7 +15,7 @@ const Work = () => {
         ShopEasy-TestApp <Badge>2022</Badge>
       </Title>
       <P>
-        One of my first apps from a tutorial,  that help me understand Front-End Design and Eccommerence building. 
+        One of my first apps ,  that help me understand Front-End Design using a framework - React for Eccommerence building. 
           </P>
       <List ml={4} my={4}>
         <ListItem>
